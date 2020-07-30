@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#24282C"
+    android:backgroundTint="FF434242"
+    android:backgroundTintMode="FF434242"
+    tools:context=".prova">
+
+    <ScrollView
+        android:layout_width="800dp"
+        android:layout_height="1083dp"
+        android:background="#24282C"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="152dp"
+                android:layout_marginTop="30dp"
+                android:background="FF434242"
+                android:backgroundTint="FF434242"
+                android:drawableBottom="@drawable/zanjas60"
+                tools:layout_editor_absoluteX="248dp"
+                tools:layout_editor_absoluteY="457dp" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="151dp"
+                android:layout_marginTop="30dp"
+                android:background="FF434242"
+                android:backgroundTint="#FFFFFF"
+                android:backgroundTintMode="FF434242"
+                android:drawableBottom="@drawable/taludes60"
+                tools:layout_editor_absoluteX="248dp"
+                tools:layout_editor_absoluteY="457dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="148dp"
+                android:layout_marginTop="30dp"
+                android:background="FF434242"
+                android:backgroundTint="FF434242"
+                android:drawableBottom="@drawable/pozos60"
+                tools:layout_editor_absoluteX="248dp"
+                tools:layout_editor_absoluteY="457dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="152dp"
+                android:layout_marginTop="30dp"
+                android:background="#24282C"
+                android:backgroundTint="FF434242"
+                android:drawableBottom="@drawable/poligonal60"
+                tools:layout_editor_absoluteX="248dp"
+                tools:layout_editor_absoluteY="457dp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="149dp"
+                android:layout_marginTop="30dp"
+                android:background="FF434242"
+                android:backgroundTint="FF434242"
+                android:drawableBottom="@drawable/lineadesplazada60"
+                tools:layout_editor_absoluteX="248dp"
+                tools:layout_editor_absoluteY="457dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="153dp"
+                android:layout_marginTop="30dp"
+                android:background="FF434242"
+                android:backgroundTint="FF434242"
+                android:drawableBottom="@drawable/distancias60"
+                tools:layout_editor_absoluteX="248dp"
+                tools:layout_editor_absoluteY="457dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="152dp"
+                android:layout_marginTop="30dp"
+                android:background="FF434242"
+                android:backgroundTint="FF434242"
+                android:drawableBottom="@drawable/cortevertical60"
+                tools:layout_editor_absoluteX="248dp"
+                tools:layout_editor_absoluteY="457dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="152dp"
+                android:layout_marginTop="30dp"
+                android:background="FF434242"
+                android:backgroundTint="FF434242"
+                android:drawableBottom="@drawable/alturamaxima60"
+                tools:layout_editor_absoluteX="248dp"
+                tools:layout_editor_absoluteY="457dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="610dp"
+                android:layout_height="153dp"
+                android:layout_marginTop="30dp"
+                android:background="FF434242"
+                android:backgroundTint="FF434242"
+                android:drawableBottom="@drawable/volver"
+                tools:layout_editor_absoluteX="248dp"
+                tools:layout_editor_absoluteY="457dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bannertrabajos_png"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

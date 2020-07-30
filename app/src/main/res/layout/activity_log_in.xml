@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#24282C"
+    tools:context=".LogIn">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="555dp"
+        android:layout_height="92dp"
+        android:ems="10"
+        android:hint="Operario:"
+        android:inputType="textPersonName"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="554dp"
+        android:layout_height="92dp"
+        android:ems="10"
+        android:hint="Contraseña:"
+        android:inputType="textPassword"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="365dp"
+        android:layout_height="89dp"
+        android:background="#000000"
+        android:text="ENTRAR"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="555dp"
+        android:layout_height="92dp"
+        android:ems="10"
+        android:hint="E-mail:"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="784dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="484dp"
+        android:layout_height="432dp"
+        app:srcCompat="@drawable/logo_login"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo2"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="534dp"
+        android:layout_height="104dp"
+        app:srcCompat="@drawable/login1"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

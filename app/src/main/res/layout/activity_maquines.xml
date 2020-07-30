@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#24282C"
+    tools:context=".Maquines">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/excmixta60"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/motoniveladora60"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bulldozer60"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="770dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/excgirat60"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/trailla60"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="937dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bannermaquines2_2png" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="566dp"
+        android:layout_height="116dp"
+        app:srcCompat="@drawable/volver"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="1130dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

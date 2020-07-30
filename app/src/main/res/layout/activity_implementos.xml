@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#24282C"
+    android:backgroundTint="#24282C"
+    tools:context=".implementos">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bannerimplementos_png" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="638dp"
+        android:layout_height="160dp"
+        android:background="#0F434242"
+        android:backgroundTint="#434242"
+        android:drawableBottom="@drawable/rozador"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="754dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="638dp"
+        android:layout_height="160dp"
+        android:backgroundTint="#24282C"
+        android:drawableBottom="@drawable/logoexcavar"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="638dp"
+        android:layout_height="160dp"
+        android:backgroundTint="#24282C"
+        android:drawableBottom="@drawable/limpieza"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="638dp"
+        android:layout_height="160dp"
+        android:backgroundTint="#24282C"
+        android:drawableBottom="@drawable/tilt_1_"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="594dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="605dp"
+        android:layout_height="163dp"
+        android:backgroundTint="#24282C"
+        android:drawableBottom="@drawable/volver"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="1101dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="638dp"
+        android:layout_height="160dp"
+        android:background="#24282C"
+        android:drawableBottom="@drawable/martillo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="914dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
